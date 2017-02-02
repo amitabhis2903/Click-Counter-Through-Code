@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A93E831E431F6000F10067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A93E821E431F6000F10067 /* AppDelegate.swift */; };
+		11A93E851E431F6000F10067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A93E841E431F6000F10067 /* ViewController.swift */; };
+		11A93E881E431F6000F10067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A93E861E431F6000F10067 /* Main.storyboard */; };
+		11A93E8A1E431F6000F10067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A93E891E431F6000F10067 /* Assets.xcassets */; };
+		11A93E8D1E431F6000F10067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A93E8B1E431F6000F10067 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11A93E7F1E431F6000F10067 /* Click Counter Through code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Click Counter Through code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A93E821E431F6000F10067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11A93E841E431F6000F10067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11A93E871E431F6000F10067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11A93E891E431F6000F10067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A93E8C1E431F6000F10067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11A93E8E1E431F6000F10067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A93E7C1E431F5F00F10067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A93E761E431F5F00F10067 = {
+			isa = PBXGroup;
+			children = (
+				11A93E811E431F6000F10067 /* Click Counter Through code */,
+				11A93E801E431F6000F10067 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11A93E801E431F6000F10067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A93E7F1E431F6000F10067 /* Click Counter Through code.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A93E811E431F6000F10067 /* Click Counter Through code */ = {
+			isa = PBXGroup;
+			children = (
+				11A93E821E431F6000F10067 /* AppDelegate.swift */,
+				11A93E841E431F6000F10067 /* ViewController.swift */,
+				11A93E861E431F6000F10067 /* Main.storyboard */,
+				11A93E891E431F6000F10067 /* Assets.xcassets */,
+				11A93E8B1E431F6000F10067 /* LaunchScreen.storyboard */,
+				11A93E8E1E431F6000F10067 /* Info.plist */,
+			);
+			path = "Click Counter Through code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A93E7E1E431F5F00F10067 /* Click Counter Through code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A93E911E431F6000F10067 /* Build configuration list for PBXNativeTarget "Click Counter Through code" */;
+			buildPhases = (
+				11A93E7B1E431F5F00F10067 /* Sources */,
+				11A93E7C1E431F5F00F10067 /* Frameworks */,
+				11A93E7D1E431F5F00F10067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Click Counter Through code";
+			productName = "Click Counter Through code";
+			productReference = 11A93E7F1E431F6000F10067 /* Click Counter Through code.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A93E771E431F5F00F10067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ammy Pandey";
+				TargetAttributes = {
+					11A93E7E1E431F5F00F10067 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C2WZ997HDM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 11A93E7A1E431F5F00F10067 /* Build configuration list for PBXProject "Click Counter Through code" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A93E761E431F5F00F10067;
+			productRefGroup = 11A93E801E431F6000F10067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A93E7E1E431F5F00F10067 /* Click Counter Through code */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A93E7D1E431F5F00F10067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A93E8D1E431F6000F10067 /* LaunchScreen.storyboard in Resources */,
+				11A93E8A1E431F6000F10067 /* Assets.xcassets in Resources */,
+				11A93E881E431F6000F10067 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A93E7B1E431F5F00F10067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A93E851E431F6000F10067 /* ViewController.swift in Sources */,
+				11A93E831E431F6000F10067 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11A93E861E431F6000F10067 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A93E871E431F6000F10067 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11A93E8B1E431F6000F10067 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A93E8C1E431F6000F10067 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11A93E8F1E431F6000F10067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11A93E901E431F6000F10067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A93E921E431F6000F10067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2WZ997HDM;
+				INFOPLIST_FILE = "Click Counter Through code/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ammy.Click-Counter-Through-code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		11A93E931E431F6000F10067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2WZ997HDM;
+				INFOPLIST_FILE = "Click Counter Through code/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ammy.Click-Counter-Through-code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A93E7A1E431F5F00F10067 /* Build configuration list for PBXProject "Click Counter Through code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A93E8F1E431F6000F10067 /* Debug */,
+				11A93E901E431F6000F10067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A93E911E431F6000F10067 /* Build configuration list for PBXNativeTarget "Click Counter Through code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A93E921E431F6000F10067 /* Debug */,
+				11A93E931E431F6000F10067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A93E771E431F5F00F10067 /* Project object */;
+}
